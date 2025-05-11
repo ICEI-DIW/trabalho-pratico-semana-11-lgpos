@@ -1,0 +1,81 @@
+body {
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+
+  header {
+    background-color: #1a1a1a;
+    color: #FFD700;
+    padding: 20px 0;
+  }
+
+
+  header h1 {
+    margin-bottom: 10px;
+  }
+
+  .navbar-dark .nav-link {
+    color: white;
+  }
+
+  .navbar-dark .nav-link:hover {
+    color: #FFD700;
+  }
+
+  .card img {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .card-text {
+    text-align: justify;
+    font-size: 0.9rem;
+  }
+
+ 
+  .card-title {
+    cursor: pointer;
+  
+  }
+
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  
+  }
+
+  .img-fluid {
+    max-width: 20%;  
+    height: auto;    
+  }
+  
+  
+  .carousel-inner img {
+    max-width: 20%;  
+    height: auto;
+    margin: 0 auto; 
+
+  }
+  
+
+  .card-img-top {
+    max-width: 100%; 
+    height: auto;
+  }
+
+  body {
+    background-color: lightgray;
+    color: black
+  }
+ 
+  
+ 
