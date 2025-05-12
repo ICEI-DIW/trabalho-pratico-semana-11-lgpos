@@ -4,14 +4,16 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 ## Informações do trabalho
 
-- Nome:
+- Nome: Lucas Guimarães Pós
 - Matricula:
-- Proposta de projeto escolhida:
+- Proposta de projeto escolhida: Catálogo de Filmes
 - Breve descrição sobre seu projeto:
 
 **Print do teste da API com visualização do JSON**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print JSON](./imgs/printJSON1.png)
+![Print JSON](./imgs/printJSON2.png)
+
 
 **Print da aba NETWORK com requisições Fetch/XHR**
 

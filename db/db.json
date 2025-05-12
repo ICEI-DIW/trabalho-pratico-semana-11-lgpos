@@ -1,18 +1,108 @@
 {
-  "usuarios": [
+  "filmes": [
     {
-      "id": "1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "Flow",
+      "detalhes": {
+        "ano": 2024,
+        "diretor": "Gints Zilbalodis",
+        "pais": "França / Letônia",
+        "duracao": "1h 25min",
+        "genero": "Animação, Aventura, Drama",
+        "descricao": "Num mundo silencioso devastado por uma catástrofe ambiental, onde a água subiu e engoliu tudo, um gato preto solitário vê sua rotina mudar ao ser forçado a fugir de sua casa inundada. Sem rumo e em busca de sobrevivência, ele encontra abrigo em um barco à deriva, que logo se torna lar de outros animais: um cachorro brincalhão, um pássaro desconfiado e uma cabra teimosa. Ao longo da jornada, enfrentam tempestades, escassez de comida e o desafio da convivência. Sem uma única palavra falada, a narrativa toca profundamente com gestos, olhares e música atmosférica, revelando o quanto a união é vital em tempos de desespero. Uma reflexão poética sobre empatia, sobrevivência e conexão entre espécies.",
+        "imagem": "imgs/filme flow.jpg"
+      }
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "titulo": "Ainda Estou Aqui",
+      "detalhes": {
+        "ano": 2023,
+        "diretor": "André Ristum",
+        "pais": "Brasil",
+        "duracao": "1h 35min",
+        "genero": "Drama, Histórico",
+        "descricao": "Baseado em fatos reais, o filme mergulha no drama vivido por Eunice Paiva durante o período mais sombrio da ditadura militar no Brasil. Quando seu marido, Rubens Paiva, é levado por agentes do regime e desaparece misteriosamente, Eunice inicia uma busca incansável por respostas. Com cinco filhos para cuidar, enfrentando ameaças, vigilância e silêncio institucional, ela transforma sua dor em resistência. A história acompanha suas visitas a delegacias, suas cartas às autoridades e os esforços para manter a família unida. Um retrato intimista, emocional e necessário sobre perda, coragem e verdade.",
+        "imagem": "imgs/ainda estou aqui.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Mufasa",
+      "detalhes": {
+        "ano": 2024,
+        "diretor": "Barry Jenkins",
+        "pais": "EUA",
+        "duracao": "1h 50min (estimado)",
+        "genero": "Aventura, Drama",
+        "descricao": "Muito antes dos eventos de 'O Rei Leão', conhecemos a história de Mufasa: um jovem leão órfão, rejeitado e sem linhagem real. Vagando sozinho pelas Terras do Orgulho, ele conhece Taka, um leão da realeza que mais tarde será conhecido como Scar. A amizade entre os dois nasce em meio a disputas por território, ensinamentos espirituais e o peso da tradição. Narrada por Timão e Pumba a uma nova geração de animais, essa história revela a origem humilde de Mufasa, os sacrifícios que o moldaram como líder e os traumas que definiram sua visão de justiça. A jornada é épica, com lições sobre confiança, poder e destino.",
+        "imagem": "imgs/mufasa.jpeg"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Moana 2",
+      "detalhes": {
+        "ano": 2024,
+        "diretor": "David G. Derrick Jr.",
+        "pais": "EUA",
+        "duracao": "1h 40min (estimado)",
+        "genero": "Animação, Fantasia",
+        "descricao": "Após devolver o coração de Te Fiti e restaurar o equilíbrio do oceano, Moana se vê inquieta, como se uma nova jornada a chamasse do fundo das águas. Vozes antigas e visões de seus ancestrais a levam a um novo arquipélago onde forças sombrias despertaram. Com Maui novamente ao seu lado, ela enfrenta monstros marítimos, espíritos esquecidos e revelações sobre sua própria origem. Em determinado ponto da viagem, Moana enfrenta a morte simbólica e retorna renascida, mais conectada com a natureza e com a missão de guiar seu povo a um novo capítulo. É uma aventura madura, emocionante, que une tradição e identidade em um mar de descobertas.",
+        "imagem": "imgs/Moana2.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "O Macaco",
+      "detalhes": {
+        "ano": 2024,
+        "diretor": "Osgood Perkins",
+        "pais": "EUA",
+        "duracao": "1h 30min",
+        "genero": "Terror, Suspense",
+        "descricao": "Quando crianças, Hal e Bill encontraram um macaco de brinquedo no sótão da casa de seu pai — um artefato antigo que batia pratos metálicos em momentos aleatórios. Logo após a descoberta, mortes inexplicáveis começaram a ocorrer. Agora adultos e afastados pela dor e pelo tempo, os irmãos são forçados a se reencontrar quando o brinquedo ressurge, aparentemente intacto, em meio aos pertences do falecido pai. Conforme o macaco começa novamente a 'atuar', eventos sobrenaturais e violentos voltam a acontecer. Baseado no conto de Stephen King, o filme mistura horror psicológico, culpa familiar e uma ameaça incontrolável que desafia a razão e a sanidade.",
+        "imagem": "imgs/filme o macaco.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Branca de Neve",
+      "detalhes": {
+        "ano": 2025,
+        "diretor": "Marc Webb",
+        "pais": "EUA",
+        "duracao": "1h 55min (estimado)",
+        "genero": "Fantasia, Musical",
+        "descricao": "Em um reino governado por vaidade e controle, Branca de Neve vive isolada, sem saber que seu coração é alvo da inveja mortal da Rainha Má. Após escapar de uma tentativa de assassinato, ela encontra refúgio em uma floresta viva, onde criaturas mágicas e sete figuras excêntricas se tornam sua nova família. Diferente das versões anteriores, esta releitura apresenta uma Branca empoderada, estrategista e determinada a reconquistar seu trono. Com novas músicas, visual encantador e mensagens sobre aceitação, liberdade e identidade, o filme transforma o conto clássico em uma jornada épica de autodescoberta e resistência feminina.",
+        "imagem": "imgs/brancade neve.jpg"
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "Minecraft",
+      "detalhes": {
+        "ano": 2025,
+        "diretor": "Jared Hess",
+        "pais": "EUA",
+        "duracao": "2h 00min (estimado)",
+        "genero": "Aventura, Fantasia",
+        "descricao": "Quando quatro adolescentes com vidas comuns e personalidades opostas são misteriosamente sugados para dentro do mundo pixelado de Minecraft, eles se veem obrigados a reaprender tudo: construir, sobreviver, combater e... cooperar. Enfrentando criaturas como creepers, endermen e piglins, os jovens percebem que não estão apenas dentro de um jogo — mas de um universo vivo, que reage às suas escolhas. Para retornar ao mundo real, eles precisam decifrar enigmas escondidos em biomas perigosos, construir alianças improváveis e encarar o lendário Ender Dragon. Uma aventura recheada de humor, adrenalina e lições sobre trabalho em equipe, coragem e adaptação.",
+        "imagem": "imgs/minecraft.webp"
+      }
+    },
+    {
+      "id": 8,
+      "titulo": "Capitão América: Admirável Mundo",
+      "detalhes": {
+        "ano": 2025,
+        "diretor": "Julius Onah",
+        "pais": "EUA",
+        "duracao": "2h 10min (estimado)",
+        "genero": "Ação, Super-herói",
+        "descricao": "Após os eventos do Blip, o mundo vive uma reconstrução tensa, com divisões políticas, desconfiança social e novos inimigos surgindo das sombras. Sam Wilson assume oficialmente o manto de Capitão América, mas seu maior desafio não é físico — é simbólico. Ele precisa provar que um herói sem soro no sangue pode carregar o escudo e representar milhões. Com o retorno de Isaiah Bradley e o surgimento de uma ameaça ligada ao metal adamantium, Sam enfrenta conspirações internas, tensões raciais e dilemas morais. É um filme maduro, político e emocionante, que discute o que é ser um herói no século XXI em um mundo quebrado.",
+        "imagem": "imgs/capitao america filme.webp"
+      }
     }
   ]
 }
